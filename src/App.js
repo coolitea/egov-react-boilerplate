@@ -1,11 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import { Route } from 'react-router-dom';
+import { Home, About } from './pages';
+import Menu from './components/Menu';
 
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <h1>eGov React Boilerplate</h1>
-      </div>
+      <Fragment>
+        <Menu />
+        <div className="container">
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+        </div>
+      </Fragment>
     );
   }
 }
