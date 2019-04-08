@@ -18,35 +18,14 @@ const Menu = () => {
           activeStyle={activeStyle}>
           Home
         </NavLink>
-
         <NavLink
           className="nav-item"
-          exact
           to="/about"
           style={{ textDecoration: 'none' }}
           activeStyle={activeStyle}>
           About
         </NavLink>
       </nav>
-
-      {/* <div className="row">
-        <div class="col">
-          <NavLink
-            exact
-            to="/"
-            style={{ textDecoration: 'none', color: 'green' }}
-            activeStyle={activeStyle}>
-            Home
-          </NavLink>
-          <NavLink
-            exact
-            to="/about"
-            style={{ textDecoration: 'none', color: 'green' }}
-            activeStyle={activeStyle}>
-            About
-          </NavLink>
-        </div>
-      </div> */}
     </div>
   );
 };

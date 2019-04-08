@@ -3,8 +3,9 @@ import { Route } from 'react-router-dom';
 import { Home, About } from './pages';
 import Header from './components/Header';
 import Menu from './components/Menu';
-// import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Policy from './pages/Policy';
+import Terms from './pages/Terms';
 
 export default class App extends Component {
   render() {
@@ -15,8 +16,11 @@ export default class App extends Component {
         <div className="container">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/policy" component={Policy} />
+          <Route path="/terms" component={Terms} />
         </div>
         <Footer />
+        <div className="container" />
       </Fragment>
     );
   }
