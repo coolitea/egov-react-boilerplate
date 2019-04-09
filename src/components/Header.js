@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faLeaf, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 
-const homeLink = "https://www.ksd.or.kr";
+const homeLink = "https://coolitea.github.io/egov-react-boilerplate";
 const twitterLink = "https://twitter.com/ksd_hr";
 const facebookLink =
   "https://www.facebook.com/pages/한국예탁결제원KSD-Korea-Securities-Depository/138898389462403";
