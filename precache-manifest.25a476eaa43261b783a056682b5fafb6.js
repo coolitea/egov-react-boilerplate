@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/media/accomplishment-achievement_640.8a3aeae2.jpg"
   },
   {
-    "revision": "76f0ed74a9642780c7b3",
+    "revision": "dff6cc590947d308d3b6",
     "url": "/egov-react-boilerplate/static/css/main.ec804f6a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/js/2.554d1f17.chunk.js"
   },
   {
-    "revision": "76f0ed74a9642780c7b3",
-    "url": "/egov-react-boilerplate/static/js/main.4d907328.chunk.js"
+    "revision": "dff6cc590947d308d3b6",
+    "url": "/egov-react-boilerplate/static/js/main.fadda204.chunk.js"
   },
   {
     "revision": "c85639c64810e72295ade58c8c667cdd",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/css/2.95ad7d13.chunk.css"
   },
   {
-    "revision": "d78ec6000388cdada063da97022661e7",
+    "revision": "972ffc36b12becdaed2357e5a8c86989",
     "url": "/egov-react-boilerplate/index.html"
   }
 ];
