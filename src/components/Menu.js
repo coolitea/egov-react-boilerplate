@@ -1,10 +1,10 @@
-import React from 'react';
-import { NavLink, withRouter } from 'react-router-dom';
-import './Menu.css';
+import React from "react";
+import { NavLink, withRouter } from "react-router-dom";
+import "./Menu.css";
 
 const Menu = () => {
   const activeStyle = {
-    fontSize: '1.2rem'
+    fontSize: "1.2rem"
   };
 
   return (
@@ -14,16 +14,26 @@ const Menu = () => {
           className="nav-item"
           exact
           to="/"
-          style={{ textDecoration: 'none' }}
-          activeStyle={activeStyle}>
+          style={{ textDecoration: "none" }}
+          activeStyle={activeStyle}
+        >
           Home
         </NavLink>
         <NavLink
           className="nav-item"
           to="/about"
-          style={{ textDecoration: 'none' }}
-          activeStyle={activeStyle}>
+          style={{ textDecoration: "none" }}
+          activeStyle={activeStyle}
+        >
           About
+        </NavLink>
+        <NavLink
+          className="nav-item"
+          to="/support"
+          style={{ textDecoration: "none" }}
+          activeStyle={activeStyle}
+        >
+          Support
         </NavLink>
       </nav>
     </div>
