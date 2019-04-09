@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/media/cash-coins-currency_320.2e3905c6.jpg"
   },
   {
-    "revision": "c2ad6e11628d60dd02c0",
+    "revision": "1edd54f83cf1d0f785c8",
     "url": "/egov-react-boilerplate/static/css/main.c0625810.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/js/2.37032ea7.chunk.js"
   },
   {
-    "revision": "c2ad6e11628d60dd02c0",
-    "url": "/egov-react-boilerplate/static/js/main.2992cc66.chunk.js"
+    "revision": "1edd54f83cf1d0f785c8",
+    "url": "/egov-react-boilerplate/static/js/main.ea7fefa4.chunk.js"
   },
   {
     "revision": "c85639c64810e72295ade58c8c667cdd",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/css/2.a3da0c26.chunk.css"
   },
   {
-    "revision": "7d21edaaf6acb2b64943c4fa2ceb90e5",
+    "revision": "60dec712dabc3ec8776c14af26f74249",
     "url": "/egov-react-boilerplate/index.html"
   }
 ];
