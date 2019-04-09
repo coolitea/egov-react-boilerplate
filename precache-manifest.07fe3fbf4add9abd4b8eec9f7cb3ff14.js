@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8a3aeae20e2f201e1166eecedb7b0895",
-    "url": "/egov-react-boilerplate/static/media/accomplishment-achievement_640.8a3aeae2.jpg"
+    "revision": "2e3905c61eee01215590f9be5d620964",
+    "url": "/egov-react-boilerplate/static/media/cash-coins-currency_320.2e3905c6.jpg"
   },
   {
-    "revision": "dff6cc590947d308d3b6",
-    "url": "/egov-react-boilerplate/static/css/main.ec804f6a.chunk.css"
+    "revision": "c2ad6e11628d60dd02c0",
+    "url": "/egov-react-boilerplate/static/css/main.c0625810.chunk.css"
   },
   {
     "revision": "5bded6e82a47fc8996ec",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/media/it-staff_320.785405fe.jpg"
   },
   {
-    "revision": "fc2f8da8a499225f13ed",
-    "url": "/egov-react-boilerplate/static/js/2.554d1f17.chunk.js"
+    "revision": "cfd1c93ae469b4e2a668",
+    "url": "/egov-react-boilerplate/static/js/2.37032ea7.chunk.js"
   },
   {
-    "revision": "dff6cc590947d308d3b6",
-    "url": "/egov-react-boilerplate/static/js/main.fadda204.chunk.js"
+    "revision": "c2ad6e11628d60dd02c0",
+    "url": "/egov-react-boilerplate/static/js/main.2992cc66.chunk.js"
   },
   {
     "revision": "c85639c64810e72295ade58c8c667cdd",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/media/biz-staff_320.8ad7ff91.jpg"
   },
   {
-    "revision": "fc2f8da8a499225f13ed",
-    "url": "/egov-react-boilerplate/static/css/2.95ad7d13.chunk.css"
+    "revision": "cfd1c93ae469b4e2a668",
+    "url": "/egov-react-boilerplate/static/css/2.a3da0c26.chunk.css"
   },
   {
-    "revision": "972ffc36b12becdaed2357e5a8c86989",
+    "revision": "7d21edaaf6acb2b64943c4fa2ceb90e5",
     "url": "/egov-react-boilerplate/index.html"
   }
 ];
