@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-/* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400,700|Roboto:400,700'); */
 
 html {
   position: relative;
@@ -9,8 +8,7 @@ html {
 body {
   margin-top: 0;
   margin-bottom: 60px; /* Margin bottom by footer height */
-  padding: 0;
-  /* font-family: 'Nanum Gothic Coding', monospace, 'Roboto', sans-serif;   */
+  padding: 0;  
   font-family: 'Roboto',  sans-serif;  
 }
 
@@ -18,8 +16,9 @@ body {
   padding: 5px;
   margin: 5px;
 }
+
 .icon {
-  padding: 0 2px;  
+  padding: 0 3px;  
 }
 
 .footer {

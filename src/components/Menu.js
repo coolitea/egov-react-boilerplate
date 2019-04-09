@@ -11,7 +11,7 @@ import {
 
 const Menu = () => {
   const activeStyle = {
-    fontSize: '1.5rem'
+    fontSize: '1.3rem'
   };
 
   return (
