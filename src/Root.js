@@ -4,7 +4,7 @@ import App from './App';
 
 const Root = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/egov-react-boilerplate'}>
       <App />
     </BrowserRouter>
   );

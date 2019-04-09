@@ -8,11 +8,11 @@ const Support = () => {
     <div className="container">
       <h1>고객 지원</h1>
       <hr />
+      <Help />
+      <hr />
       <Employees />
       <hr />
       <Location />
-      <hr />
-      <Help />
     </div>
   );
 };
