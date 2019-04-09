@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/egov-react-boilerplate/precache-manifest.454e46c7eba289673355d4c03d95d5c0.js"
+  "/egov-react-boilerplate/precache-manifest.658642fd417f478c2d8dbb38d3b78e57.js"
 );
 
 workbox.clientsClaim();

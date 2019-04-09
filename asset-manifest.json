@@ -1,15 +1,20 @@
 {
-  "main.css": "/egov-react-boilerplate/static/css/main.fe3d26cf.chunk.css",
-  "main.js": "/egov-react-boilerplate/static/js/main.ff2e54b0.chunk.js",
-  "main.js.map": "/egov-react-boilerplate/static/js/main.ff2e54b0.chunk.js.map",
+  "main.css": "/egov-react-boilerplate/static/css/main.ec804f6a.chunk.css",
+  "main.js": "/egov-react-boilerplate/static/js/main.4d907328.chunk.js",
+  "main.js.map": "/egov-react-boilerplate/static/js/main.4d907328.chunk.js.map",
   "runtime~main.js": "/egov-react-boilerplate/static/js/runtime~main.e2aec0d5.js",
   "runtime~main.js.map": "/egov-react-boilerplate/static/js/runtime~main.e2aec0d5.js.map",
   "static/css/2.95ad7d13.chunk.css": "/egov-react-boilerplate/static/css/2.95ad7d13.chunk.css",
-  "static/js/2.61516c27.chunk.js": "/egov-react-boilerplate/static/js/2.61516c27.chunk.js",
-  "static/js/2.61516c27.chunk.js.map": "/egov-react-boilerplate/static/js/2.61516c27.chunk.js.map",
+  "static/js/2.554d1f17.chunk.js": "/egov-react-boilerplate/static/js/2.554d1f17.chunk.js",
+  "static/js/2.554d1f17.chunk.js.map": "/egov-react-boilerplate/static/js/2.554d1f17.chunk.js.map",
   "index.html": "/egov-react-boilerplate/index.html",
-  "precache-manifest.454e46c7eba289673355d4c03d95d5c0.js": "/egov-react-boilerplate/precache-manifest.454e46c7eba289673355d4c03d95d5c0.js",
+  "precache-manifest.658642fd417f478c2d8dbb38d3b78e57.js": "/egov-react-boilerplate/precache-manifest.658642fd417f478c2d8dbb38d3b78e57.js",
   "service-worker.js": "/egov-react-boilerplate/service-worker.js",
   "static/css/2.95ad7d13.chunk.css.map": "/egov-react-boilerplate/static/css/2.95ad7d13.chunk.css.map",
-  "static/css/main.fe3d26cf.chunk.css.map": "/egov-react-boilerplate/static/css/main.fe3d26cf.chunk.css.map"
+  "static/css/main.ec804f6a.chunk.css.map": "/egov-react-boilerplate/static/css/main.ec804f6a.chunk.css.map",
+  "static/media/accomplishment-achievement_640.jpg": "/egov-react-boilerplate/static/media/accomplishment-achievement_640.8a3aeae2.jpg",
+  "static/media/biz-manager_320.jpg": "/egov-react-boilerplate/static/media/biz-manager_320.c85639c6.jpg",
+  "static/media/biz-staff_320.jpg": "/egov-react-boilerplate/static/media/biz-staff_320.8ad7ff91.jpg",
+  "static/media/it-manager_320.jpg": "/egov-react-boilerplate/static/media/it-manager_320.501e6b12.jpg",
+  "static/media/it-staff_320.jpg": "/egov-react-boilerplate/static/media/it-staff_320.785405fe.jpg"
 }
