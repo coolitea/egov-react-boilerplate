@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
+import SearchForm from './SearchForm';
 
 const Employees = () => {
   return (
     <div className="employees">
       <h2>직원</h2>
-      <div className="row">
+      <SearchForm />
+      {/* <div className="row">
         <div className="col">
           <ul>
             <li>김신뢰</li>
@@ -13,7 +15,7 @@ const Employees = () => {
             <li>박전문</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

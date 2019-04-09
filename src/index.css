@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 /* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400,700|Roboto:400,700'); */
 
 html {
@@ -10,6 +11,15 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
   padding: 0;
   /* font-family: 'Nanum Gothic Coding', monospace, 'Roboto', sans-serif;   */
+  font-family: 'Roboto',  sans-serif;  
+}
+
+.card {
+  padding: 5px;
+  margin: 5px;
+}
+.icon {
+  padding: 0 2px;  
 }
 
 .footer {
@@ -22,10 +32,6 @@ body {
 }
 
 /* 레이아웃 전반 스타일*/
-.icon {
-  padding: 5px;
-}
-
 .title {
   /* text-align: center; */
   font-weight: bold;

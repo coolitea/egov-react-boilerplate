@@ -1,9 +1,9 @@
 .container {
   width: auto;
   max-width: 960px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .nav-item {
-  padding: 0 5px;
+  padding: 0 10px;
 }

@@ -1,7 +1,6 @@
-import React from "react";
-import AboutService from "../components/AboutService";
-import AboutTeam from "../components/AboutTeam";
-import "./About.css";
+import React from 'react';
+import AboutService from '../components/AboutService';
+import AboutTeam from '../components/AboutTeam';
 
 const About = () => {
   return (

@@ -1,20 +1,23 @@
-import React from "react";
+import React from 'react';
+import ServiceImage from '../static/images/cash-coins-currency_320.jpg';
 
 const About = () => {
   return (
     <div className="about-service">
       <h2>서비스 소개</h2>
-      <div className="row">
+      <div className="row align-items-center">
+        <div className="col-sm-8">
+          <h4 className="text-secondary">
+            우리는 편리하고 안전한 금융투자 인프라를 제공하여 자본시장 발전에
+            기여합니다.
+          </h4>
+        </div>
         <div className="col">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ull1 amco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <img
+            className="card-img-top img-fluid"
+            src={ServiceImage}
+            alt="Service"
+          />
         </div>
       </div>
     </div>
