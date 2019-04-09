@@ -25,7 +25,15 @@ const Menu = () => {
           style={{ textDecoration: "none" }}
           activeStyle={activeStyle}
         >
-          About
+          소개
+        </NavLink>
+        <NavLink
+          className="nav-item"
+          to="/sample-page"
+          style={{ textDecoration: "none" }}
+          activeStyle={activeStyle}
+        >
+          샘플페이지
         </NavLink>
         <NavLink
           className="nav-item"
@@ -33,7 +41,7 @@ const Menu = () => {
           style={{ textDecoration: "none" }}
           activeStyle={activeStyle}
         >
-          Support
+          고객지원
         </NavLink>
       </nav>
     </div>

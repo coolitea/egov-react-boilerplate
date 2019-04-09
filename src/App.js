@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { Route } from "react-router-dom";
-import { Home, About, Support } from "./pages";
+import { Home, About, SamplePage, Support } from "./pages";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
@@ -16,6 +16,7 @@ export default class App extends Component {
         <div className="container">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/sample-page" component={SamplePage} />
           <Route path="/support" component={Support} />
           <Route path="/policy" component={Policy} />
           <Route path="/terms" component={Terms} />

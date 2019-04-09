@@ -1,10 +1,16 @@
 import React from "react";
+import bizMagager from "../static/images/team/biz-manager_320.jpg";
+import itMagager from "../static/images/team/it-manager_320.jpg";
+import bizStaff from "../static/images/team/biz-staff_320.jpg";
+import itStaff from "../static/images/team/it-staff_320.jpg";
+import "./About.css";
 
 const About = () => {
   return (
     <div className="container">
-      <h2>전자정부 서비스 소개</h2>
+      <h1>소개</h1>
       <hr />
+      <h2>서비스 소개</h2>
       <div className="row">
         <div className="col">
           <p>
@@ -18,87 +24,47 @@ const About = () => {
           </p>
         </div>
       </div>
-      <h2>직원 소개</h2>
       <hr />
-      <div className="row">
-        <div className="col-lg-4">
-          <svg
-            className="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-            role="img"
-            aria-label="Placeholder: 140x140"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
-          <h2>Heading</h2>
-          <p>
-            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
-            Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo
-            risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
-            cursus magna.
-          </p>
+
+      <h2>팀 소개</h2>
+      <h4 className="text-secondary">
+        세계 일류 종합증권서비스를 제공하는 책임있는 전문가 그룹을 소개합니다.
+      </h4>
+
+      <div className="row justify-content-center">
+        <div className="col-sm-3 text-center">
+          <img
+            src={bizMagager}
+            alt="Business Manager"
+            className="avatar size-4"
+          />
+          <h2>김신뢰</h2>
+          <h4 className="text-secondary">비즈니스 팀장</h4>
         </div>
-        <div className="col-lg-4">
-          <svg
-            className="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-            role="img"
-            aria-label="Placeholder: 140x140"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
-          <h2>Heading</h2>
-          <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-            amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-            mauris condimentum nibh.
-          </p>
+        <div className="col-sm-3 text-center">
+          <img
+            src={itMagager}
+            alt="Business Manager"
+            className="avatar size-4"
+          />
+          <h2>이따뜻</h2>
+          <h4 className="text-secondary">IT 팀장</h4>
         </div>
-        <div className="col-lg-4">
-          <svg
-            className="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-            role="img"
-            aria-label="Placeholder: 140x140"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
-          <h2>Heading</h2>
-          <p>
-            Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-            egestas eget quam. Vestibulum id ligula porta felis euismod semper.
-            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
-            nibh, ut fermentum massa justo sit amet risus.
-          </p>
+        <div className="col-sm-3 text-center">
+          <img
+            src={bizStaff}
+            alt="Business Manager"
+            className="avatar size-4"
+          />
+          <h2>최책임</h2>
+          <h4 className="text-secondary">비즈니스 팀원</h4>
+        </div>
+        <div className="col-sm-3 text-center">
+          <img src={itStaff} alt="Business Manager" className="avatar size-4" />
+          <h3>박전문</h3>
+          <h4 className="text-secondary">IT 팀원</h4>
         </div>
       </div>
-
-      <hr className="featurette-divider" />
     </div>
   );
 };

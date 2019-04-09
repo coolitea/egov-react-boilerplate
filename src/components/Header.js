@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import logo from "../static/images/logo-large.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
   faFacebook,
   faYoutube
 } from "@fortawesome/free-brands-svg-icons";
-import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 
 const homeLink = "https://www.ksd.or.kr";
 const twitterLink = "https://twitter.com/ksd_hr";
@@ -20,15 +19,19 @@ class Header extends Component {
       <div className="header">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-            <div className="col">
+            <div className="col text-left">
               <span>
-                <img src={logo} alt="Logo" />
                 <a href={homeLink} className="btn text-dark">
-                  <div className="title">전자정부서비스</div>
+                  <span className="icon title">
+                    <FontAwesomeIcon icon={faLeaf} color="#2ecc71" />{" "}
+                    전자정부서비스
+                  </span>
+                  {/* <div className="title">전자정부서비스</div> */}
                 </a>
               </span>
             </div>
-            <div className="col-auto">
+            <div className="col-auto"> </div>
+            <div className="col text-right">
               <span className="icon">
                 <a href={twitterLink} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon color="#1DA1F1" icon={faTwitter} size="2x" />
