@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/media/cash-coins-currency_320.2e3905c6.jpg"
   },
   {
-    "revision": "f9d3fb0c6139a3dbde74",
-    "url": "/egov-react-boilerplate/static/css/main.91a6b344.chunk.css"
+    "revision": "41efbc8958b6f7fb0eef",
+    "url": "/egov-react-boilerplate/static/css/main.74eae97b.chunk.css"
   },
   {
     "revision": "5bded6e82a47fc8996ec",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/media/it-staff_320.785405fe.jpg"
   },
   {
-    "revision": "986257f55106e30df94d",
-    "url": "/egov-react-boilerplate/static/js/2.88da3d08.chunk.js"
+    "revision": "f07fe8815fc77de733fb",
+    "url": "/egov-react-boilerplate/static/js/2.e69712cd.chunk.js"
   },
   {
-    "revision": "f9d3fb0c6139a3dbde74",
-    "url": "/egov-react-boilerplate/static/js/main.9af985d3.chunk.js"
+    "revision": "41efbc8958b6f7fb0eef",
+    "url": "/egov-react-boilerplate/static/js/main.ab4f89c9.chunk.js"
   },
   {
     "revision": "c85639c64810e72295ade58c8c667cdd",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/egov-react-boilerplate/static/media/biz-staff_320.8ad7ff91.jpg"
   },
   {
-    "revision": "986257f55106e30df94d",
-    "url": "/egov-react-boilerplate/static/css/2.a3da0c26.chunk.css"
+    "revision": "f07fe8815fc77de733fb",
+    "url": "/egov-react-boilerplate/static/css/2.95ad7d13.chunk.css"
   },
   {
-    "revision": "012018d8d9ae1dbb996ed4f8d00fc600",
+    "revision": "16db33a166434edc2ac911dbcb9068b4",
     "url": "/egov-react-boilerplate/index.html"
   }
 ];
