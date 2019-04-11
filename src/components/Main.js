@@ -1,10 +1,10 @@
-import React from 'react';
-import './Main.css';
+import React from "react";
+import "./Main.css";
 // import mainIamge from '../static/images/accomplishment-achievement_640.jpg';
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main rounded">
       <div className="row align-items-center">
         <div className="col-12 text-center">
           <h2>안녕하세요!</h2>

@@ -1,13 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Privacy from "../components/Privacy";
 
 const Policy = () => {
   return (
-    <div className="container">
+    <Fragment>
       <h1>정책</h1>
       <hr />
       <Privacy />
-    </div>
+    </Fragment>
   );
 };
 

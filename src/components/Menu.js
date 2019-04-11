@@ -17,61 +17,60 @@ const activeStyle = {
 };
 
 const Menu = () => {
-  // const activeStyle = {
-  //   fontSize: "1.3rem"
-  // };
-
   return (
-    <div className="container text-center">
-      <div className="row-12 justify-content-around">
-        <nav className="navbar navbar-expand-lg bg-light justify-content-around">
-          <NavLink
-            className="nav-item"
-            exact
-            to="/"
-            style={linkStyle}
-            activeStyle={activeStyle}
-            title="홈"
-          >
-            <FontAwesomeIcon icon={faHome} alt="홈" />
-            <br />홈
-          </NavLink>
-          <NavLink
-            className="nav-item"
-            to="/about"
-            style={linkStyle}
-            activeStyle={activeStyle}
-            title="소계"
-          >
-            <FontAwesomeIcon icon={faUserFriends} />
-            <br />
-            소개
-          </NavLink>
-          <NavLink
-            className="nav-item"
-            to="/sample-page"
-            style={linkStyle}
-            activeStyle={activeStyle}
-            title="샘플페이지"
-          >
-            <FontAwesomeIcon icon={faChartBar} />
-            <br />
-            샘플페이지
-          </NavLink>
-          <NavLink
-            className="nav-item"
-            to="/support"
-            style={linkStyle}
-            activeStyle={activeStyle}
-            title="고객지원"
-          >
-            <FontAwesomeIcon icon={faQuestionCircle} />
-            <br />
-            고객지원
-          </NavLink>
-        </nav>
-      </div>
-    </div>
+    <nav className="navbar navbar-expand-lg bg-light justify-content-around">
+      <span className="text-center">
+        <NavLink
+          className="nav-item"
+          exact
+          to="/"
+          style={linkStyle}
+          activeStyle={activeStyle}
+          title="홈"
+        >
+          <FontAwesomeIcon icon={faHome} alt="홈" />
+          <br />홈
+        </NavLink>
+      </span>
+      <span className="text-center">
+        <NavLink
+          className="nav-item"
+          to="/about"
+          style={linkStyle}
+          activeStyle={activeStyle}
+          title="소계"
+        >
+          <FontAwesomeIcon icon={faUserFriends} />
+          <br /> 소개
+        </NavLink>
+      </span>
+      <span className="text-center">
+        <NavLink
+          className="nav-item"
+          to="/sample-page"
+          style={linkStyle}
+          activeStyle={activeStyle}
+          title="샘플페이지"
+        >
+          <FontAwesomeIcon icon={faChartBar} />
+          <br />
+          샘플페이지
+        </NavLink>
+      </span>
+      <span className="text-center">
+        <NavLink
+          className="nav-item"
+          to="/support"
+          style={linkStyle}
+          activeStyle={activeStyle}
+          title="고객지원"
+        >
+          <FontAwesomeIcon icon={faQuestionCircle} />
+          <br />
+          고객지원
+        </NavLink>
+      </span>
+    </nav>
   );
 };
 

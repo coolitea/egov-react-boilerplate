@@ -1,13 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 import UseTerms from "../components/UseTerms";
 
 const Terms = () => {
   return (
-    <div className="container">
+    <Fragment>
       <h1>약관</h1>
       <hr />
       <UseTerms />
-    </div>
+    </Fragment>
   );
 };
 
