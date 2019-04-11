@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  margin-bottom: 35px; /* Margin bottom by footer height */
+  margin-bottom: 60px; /* Margin bottom by footer height */
   font-family: "Roboto", sans-serif;
 }
 
@@ -15,7 +15,9 @@ header {
   padding-bottom: 10px;
 }
 
-/* footer {} */
+footer {
+  padding-top: 60px;
+}
 
 /* 레이아웃 전반 스타일*/
 /* .container { } */

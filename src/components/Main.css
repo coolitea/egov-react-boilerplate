@@ -1,20 +1,19 @@
 .main {
   position: relative;
-  margin: 30px;
-  padding: 15px;
+  margin: 20px 0;
+  padding: 20px 0;
   color: white;
-
+  /* animation */
   animation-name: example;
   animation-delay: 0;
   animation-duration: 6s;
-  /* animation-iteration-count: 1; */
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
 
 .service {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 @keyframes example {

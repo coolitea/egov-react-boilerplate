@@ -11,9 +11,9 @@ const activeStyle = {
 class Footer extends Component {
   render() {
     return (
-      <footer className="footer">
-        <nav className="navbar fixed-bottom navbar-light bg-light">
-          <div className="navbar-brand">&copy; 2019 coolitea</div>
+      <nav className="navbar fixed-bottom navbar-light bg-light">
+        <div className="navbar-brand">&copy; 2019 coolitea</div>
+        <span className="nav-link">
           <NavLink
             className="nav-item"
             to="/policy"
@@ -23,6 +23,8 @@ class Footer extends Component {
           >
             개인정보처리방침
           </NavLink>
+        </span>
+        <span className="nav-link">
           <NavLink
             className="nav-item"
             to="/terms"
@@ -32,15 +34,8 @@ class Footer extends Component {
           >
             이용약관
           </NavLink>
-        </nav>
-        <div className="container">
-          <div className="row">
-            <div className="col text-center">
-              <span className="text-muted"> </span>
-            </div>
-          </div>
-        </div>
-      </footer>
+        </span>
+      </nav>
     );
   }
 }
