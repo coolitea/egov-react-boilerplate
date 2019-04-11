@@ -1,13 +1,16 @@
-import React, { Fragment } from "react";
-import SampleComponent from "../components/SampleComponent";
+import React from 'react';
+import SampleAgGrid from '../components/SampleAgGrid';
+import SampleTable from '../components/SampleTable';
 
 const SamplePage = () => {
   return (
-    <Fragment>
+    <div className="SameplePage">
       <h1>샘플 페이지</h1>
       <hr />
-      <SampleComponent />
-    </Fragment>
+      <SampleTable />
+      <hr />
+      <SampleAgGrid />
+    </div>
   );
 };
 
