@@ -3,7 +3,7 @@ import ServiceImage from '../static/images/cash-coins-currency_320.jpg';
 
 const About = () => {
   return (
-    <div className="about-service">
+    <div className="AboutService">
       <h2>서비스 소개</h2>
       <div className="row align-items-center">
         <div className="col-sm-8">

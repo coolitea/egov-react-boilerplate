@@ -1,7 +1,7 @@
-import React, { Component, Fragment } from "react";
-import "./App.css";
-import { Route } from "react-router-dom";
-import { Home, About, Support, Policy, Terms, SamplePage } from "./pages";
+import React, { Component, Fragment } from 'react';
+import './App.scss';
+import { Route } from 'react-router-dom';
+import { Home, About, Support, Policy, Terms, SamplePage } from './pages';
 
 export default class App extends Component {
   render() {

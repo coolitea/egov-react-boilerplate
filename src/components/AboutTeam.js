@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutTeam.css';
+import './AboutTeam.scss';
 import bizMagager from '../static/images/team/biz-manager_320.jpg';
 import itMagager from '../static/images/team/it-manager_320.jpg';
 import bizStaff from '../static/images/team/biz-staff_320.jpg';
@@ -7,7 +7,7 @@ import itStaff from '../static/images/team/it-staff_320.jpg';
 
 const About = () => {
   return (
-    <div className="about-team">
+    <div className="AboutTeam">
       <h2>팀 소개</h2>
       <h4 className="text-secondary">
         세계 일류 종합증권서비스를 제공하는 전문가 그룹을 소개합니다.

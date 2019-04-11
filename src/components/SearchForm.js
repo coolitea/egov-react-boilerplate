@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import './SearchForm.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import './SearchForm.scss';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 export default class SearchForm extends Component {
   constructor(props) {
@@ -26,7 +26,7 @@ export default class SearchForm extends Component {
 
   render() {
     return (
-      <div className="content">
+      <div className="SearchForm content">
         <div className="container">
           <section className="section">
             <List items={this.state.list} delete={this.removeItem} />
@@ -101,13 +101,13 @@ class List extends React.Component {
             onChange={this.handleChange}
             placeholder="검색하실 내용을 입력하세요..."
           />
-          <div className="input-group-append">
+          {/* <div className="input-group-append">
             <span className="input-group-text">
               <FontAwesomeIcon icon={faSearch} />
             </span>
-          </div>
+          </div> */}
         </div>
-        <ul>
+        <ul className="list-unstyled">
           {this.state.filtered.map(item => (
             <li key={item}> {item} </li>
           ))}

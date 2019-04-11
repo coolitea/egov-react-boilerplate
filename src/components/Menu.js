@@ -1,19 +1,18 @@
-import React from "react";
-import { NavLink, withRouter } from "react-router-dom";
-import "./Menu.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { NavLink, withRouter } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHome,
   faUserFriends,
   faChartBar,
   faQuestionCircle
-} from "@fortawesome/free-solid-svg-icons";
+} from '@fortawesome/free-solid-svg-icons';
 
-const linkStyle = { textDecoration: "none", color: "#2d3436" };
+const linkStyle = { textDecoration: 'none', color: '#2d3436' };
 const activeStyle = {
-  textDecoration: "none",
-  color: "#1C5A82",
-  fontSize: "1.3rem"
+  textDecoration: 'none',
+  color: '#1C5A82',
+  fontSize: '1.3rem'
 };
 
 const Menu = () => {
@@ -26,8 +25,7 @@ const Menu = () => {
           to="/"
           style={linkStyle}
           activeStyle={activeStyle}
-          title="홈"
-        >
+          title="홈">
           <FontAwesomeIcon icon={faHome} alt="홈" />
           <br />홈
         </NavLink>
@@ -38,8 +36,7 @@ const Menu = () => {
           to="/about"
           style={linkStyle}
           activeStyle={activeStyle}
-          title="소계"
-        >
+          title="소계">
           <FontAwesomeIcon icon={faUserFriends} />
           <br /> 소개
         </NavLink>
@@ -50,8 +47,7 @@ const Menu = () => {
           to="/sample-page"
           style={linkStyle}
           activeStyle={activeStyle}
-          title="샘플페이지"
-        >
+          title="샘플페이지">
           <FontAwesomeIcon icon={faChartBar} />
           <br />
           샘플페이지
@@ -63,8 +59,7 @@ const Menu = () => {
           to="/support"
           style={linkStyle}
           activeStyle={activeStyle}
-          title="고객지원"
-        >
+          title="고객지원">
           <FontAwesomeIcon icon={faQuestionCircle} />
           <br />
           고객지원

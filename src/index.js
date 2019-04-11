@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
+import './index.scss';
 import Root from './Root';
 import * as serviceWorker from './serviceWorker';
 import 'react-app-polyfill/ie9'; // For IE 9-11 support
