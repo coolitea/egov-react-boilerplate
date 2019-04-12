@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Myeongjo:400,700|Roboto:400,700");
 
 html {
   position: relative;
@@ -6,20 +6,25 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif; 
-  
   header {
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: "Do Hyeon", sans-serif;
+  }
+
+  footer {
+    padding-top: 60px;
+    font-family: "Do Hyeon", sans-serif;
+  }
+
+  .container {
+    font-family: "Nanum Myeongjo", sans-serif;
   }
 
   .card {
     margin: 3px;
+    font-family: "Nanum Myeongjo", sans-serif;
   }
 
   margin-bottom: 60px; /* Margin bottom by footer height */
-  
-  footer {
-    padding-top: 60px;
-  }
 }

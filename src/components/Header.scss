@@ -1,5 +1,10 @@
 .Header {
-  .icon {
-    padding: 0 3px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+
+  .links {
+    // background-color: green;
+    align-items: center;
   }
 }

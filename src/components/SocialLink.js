@@ -1,4 +1,5 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
+import "./SocialLink.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -16,7 +17,7 @@ const gitHubLink = "https://github.com/coolitea/egov-react-boilerplate";
 class SocialLink extends Component {
   render() {
     return (
-      <Fragment>
+      <div className="SocialLink">
         <span className="icon">
           <a
             href={twitterLink}
@@ -57,7 +58,7 @@ class SocialLink extends Component {
             />
           </a>
         </span>
-      </Fragment>
+      </div>
     );
   }
 }

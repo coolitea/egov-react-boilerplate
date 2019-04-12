@@ -1,7 +1,7 @@
 import React from "react";
 import SampleTable from "../components/SampleTable";
-import SampleCoinPrice from "../components/SampleCoinPrice";
-import SampleNasdaq from "../components/SampleNasdaq";
+// import SampleCoinPrice from "../components/SampleCoinPrice";
+// import SampleNasdaq from "../components/SampleNasdaq";
 import SampleAgGrid from "../components/SampleAgGrid";
 
 const SamplePage = () => {
