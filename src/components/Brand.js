@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import './Brand.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+import React, { Component } from "react";
+import "./Brand.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
-const homeLink = 'https://coolitea.github.io/egov-react-boilerplate';
+const homeLink = "https://coolitea.github.io/egov-react-boilerplate";
 
 class Brand extends Component {
   render() {
@@ -11,7 +11,7 @@ class Brand extends Component {
       <span className="Brand">
         <a href={homeLink} className="btn text-dark" title="전자정부서비스">
           <span className="icon">
-            <FontAwesomeIcon icon={faLeaf} color="#2ecc71" />{' '}
+            <FontAwesomeIcon icon={faLeaf} color="#2ecc71" />{" "}
           </span>
           <span className="title">전자정부서비스</span>
         </a>
