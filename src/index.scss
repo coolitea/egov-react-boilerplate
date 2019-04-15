@@ -19,12 +19,11 @@ body {
 
   .container {
     font-family: "Nanum Myeongjo", sans-serif;
+    margin-bottom: 60px; /* Margin bottom by footer height */
   }
 
   .card {
     margin: 3px;
     font-family: "Nanum Myeongjo", sans-serif;
   }
-
-  margin-bottom: 60px; /* Margin bottom by footer height */
 }
