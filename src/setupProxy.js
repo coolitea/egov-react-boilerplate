@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     "/api",
     proxy({
-      target: "http://sample.bmaster.kro.kr",
+      target: "http://localhost:8080",
       changeOrigin: true
     })
   );
