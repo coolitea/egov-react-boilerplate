@@ -3,7 +3,7 @@ import SampleTable from "../components/SampleTable";
 // import SampleCoinPrice from "../components/SampleCoinPrice";
 // import SampleNasdaq from "../components/SampleNasdaq";
 import SampleAgGrid from "../components/SampleAgGrid";
-
+import SampleSBGrid from "../components/SampleSBGrid";
 const SamplePage = () => {
   return (
     <div className="SamplePage">
@@ -12,6 +12,8 @@ const SamplePage = () => {
       <SampleTable />
       <hr />
       <SampleAgGrid />
+      <hr />
+      <SampleSBGrid />
       <hr />
       {/* <hr />
       <SampleCoinPrice />
