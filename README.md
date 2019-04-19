@@ -49,8 +49,7 @@
 - 웹Frameworks 사이트의 Bootstrap 태그 글 : http://webframeworks.kr/tags/bootstrap/
 - 이원제
   - Bootstrap 시작하기 http://webframeworks.kr/getstarted/bootstrap/  
-  -Bootstrap을 이용한 반응형 웹 디자인 적용하기 http://webframeworks.kr/tutorials/bootstrap/
-
+  - Bootstrap을 이용한 반응형 웹 디자인 적용하기 http://webframeworks.kr/tutorials/bootstrap/
 
 ## eGovFrame (v3.8) http://egovframe.go.kr
 
@@ -63,10 +62,17 @@
 - 표준프레임워크 개발환경 가이드 (v3.8) http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.8:dev3.8
 - 표준프레임워크 공통컴포넌트 가이드 (v3.8) http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.8:init
   - 모바일 표준프레임워크 공통컴포넌트 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:mcom
-
+- 공개SW 
+  - 공개SW 솔루션 가이드 https://www.oss.kr/solution_guide
+  - 공개SW 가이드/보고서 https://www.oss.kr/oss_guide
+  - 공개SW 기술지원 소개 https://www.oss.kr/tech_support_intro
+  
 # 참고
 
-- 웹프레임워크
-  - Get Started http://webframeworks.kr/getstarted/
-  - 퀵스타트(Quick Start) http://webframeworks.kr/quickstart/
-- java spring  http://webframeworks.kr/getstarted/spring/
+- (KISA) KOREA HTML5 https://www.koreahtml5.kr/main.do
+  - 웹프레임워크 http://webframeworks.kr/
+    - Get Started http://webframeworks.kr/getstarted/
+    - 퀵스타트(Quick Start) http://webframeworks.kr/quickstart/
+    - java spring  http://webframeworks.kr/getstarted/spring/
+- (정보통신산업진흥원) https://www.oss.kr
+
