@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import Header from "./components/Header";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
 import Menu from "./components/Menu";
-import Footer from "./components/Footer";
 
 const Root = () => {
   return (

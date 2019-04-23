@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './Header.scss';
-import Brand from './Brand';
+import React, { Component } from "react";
+import "./Header.scss";
+import Brand from "../Brand";
 // import SocialLink from './SocialLink';
-import Language from './Language';
+import Language from "../Language";
 
 class Header extends Component {
   render() {

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Portal } from "react-portal";
 import axios from "axios";
-import AddContact from "./AddContact";
-import ContactList from "./ContactList";
-import Loading from "./Loading";
-import InputName from "./InputName";
+import AddContact from "../AddContact";
+import ContactList from "../ContactList";
+import Loading from "../Loading";
+import InputName from "../InputName";
 import "./SampleContact.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
